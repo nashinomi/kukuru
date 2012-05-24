@@ -1,0 +1,47 @@
+/* CSS Document */
+/* ヘッダー */
+div#header {
+	width : 960px;
+	margin: 0 auto;
+	border-bottom: none;
+	padding-bottom: 0;
+
+}
+div#sitetitle{
+	float:left;
+	margin: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+div#header h1 {
+	font.size: 1.875em;
+	font: normal normal 36px 'Courier New', Courier, FreeMono, monospace;
+	color: #000;
+}
+div#header h1 a{
+	text-decoration: none;
+	text-shadow: 3px 3px 0 #ccc;
+	color: black;
+}
+div#header p#desc{
+	font-size: 0.75em;
+	text-align:right;
+	margin:0;
+	color: #444444;
+}
+div#search{
+	float: right;
+	margin-top:60px;
+	margin-right:10px;
+}
+input.searchtext{
+	display: block;
+	float: left;
+	margin: 0;
+	border-radius: 5px;
+}
+input.searchbutton{
+	margin-left: -3px;
+	height: 22px;
+}

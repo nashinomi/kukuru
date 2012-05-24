@@ -1,0 +1,64 @@
+
+div#nav .menu-navmenu-container{
+	width: 964px;
+	margin: 0 auto;
+}
+div#nav ul{
+	margin:0;
+	display:inline;
+}
+div#nav li a{
+	font-size: 0.90em;
+	text-decoration: none;
+	color: #fff;
+}
+div#nav li a:hover{
+	color: #ffaa00;
+}
+div#nav li{
+	margin-left:0px;
+	width: 90px;
+	/*display: inline;*/
+	float: left;
+	list-style-type: none;
+	padding:15px 10px 6px 10px;
+	margin-top:10px;
+	margin-right:2px;
+	background-color: #333;
+	text-align:center;
+	border-top-left-radius: 10px;        	/* CSS3 */  
+    -webkit-border-top-left-radius: 10px;   /* Safari,Google Chrome用 */  
+    -moz-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+	
+}
+div#nav{
+	height:70px;
+	clear: both;
+	width: 100%;
+	background: url(../img/nav_back2.jpg) repeat-x;
+}
+div#nav:after{
+	content:'.';
+	height:0;
+	opacity:0;
+	visibility:hidden;
+	clear:both;
+}
+div#nav li.current_page_item{
+	border-top: solid 2px #000;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	width: 110px;
+	background-color:white;
+	padding-bottom:32px;
+	color:#000;
+	margin-top:0;
+}
+div#nav li.current_page_item a{
+	font-size: 1.00em;
+	font-weight:600;
+	color:#000;
+}

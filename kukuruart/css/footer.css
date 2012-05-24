@@ -1,0 +1,28 @@
+/* CSS Document */
+
+/* フッター */
+div#footer{
+	clear: both;
+	height: 100px;
+	border-top: solid 3px #000000;
+	padding: 6px 0;
+	background-color: #310;
+	background-image: url(../img/footer.png);
+	
+}
+div#footer div#footer_textarea{
+	width: 960px;
+	margin: auto;
+	padding-top: 40px;
+}
+address{
+	text-align: center;
+	font-size: 0.75em;
+	font-style: normal;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	color: #fff;
+}
+address a{
+	color: #fff;
+}

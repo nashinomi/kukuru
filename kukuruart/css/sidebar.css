@@ -1,0 +1,80 @@
+/* CSS Document */
+
+/* サイドバー */
+div#sidebar{
+	width: 280px;
+	float: right;
+	margin:0 10px;
+	font-size:13px;
+}
+
+div#sidebar ul{
+	margin: 0;
+	padding: 0;
+}
+div#sidebar li{
+	list-style-type: none;
+}
+div#sidebar .widget {
+	margin-bottom: 10px;
+}
+div#sidebar .tb_tweetlist{
+	padding: 5px;
+	border: solid 1px #0c8bcd;
+}
+div#sidebar .tb_tweet{
+	border: none;
+	border-bottom: dotted 1px #CCC;
+}
+div#sidebar h2{
+	font-size: 0.85em;
+	color: #ffffff;
+	border-bottom: solid 1px #FFFFFF;
+	padding-bottom: 8px;
+	margin: 0 0 10px;
+}
+
+div#sidebar li li{
+	font-size: 0.85em;
+	color: #ffffff;
+	margin-bottom: 4px;
+	background-image: url(../../web_template/css/listmark.gif);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+div#sidebar li li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* カレンダー */
+.widget_calendar h2{
+	display: none;	
+}
+#wp-calendar{
+	font-size: 0.75em;
+	color: #ffffff;
+	width: 100%;
+}
+#wp-calendar a{
+	color: #ffffff;
+}
+#wp-calendar caption{
+	font-weight: bold;
+	text-align: left;
+	border-bottom: solid 1px #ffffff;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+#wp-calendar th, #wp-calendar td{
+	text-align: center;
+}
+#wp-calendar #prev{
+	text-align: left;
+	padding-top: 3px;
+}
+#wp-calendar #next{
+	text-align: right;
+	padding-top: 3px;
+}

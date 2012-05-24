@@ -1,0 +1,142 @@
+/* CSS Document */
+
+/*gallery_nav*/
+div#gallery_nav{
+	width: 100%;
+	height: 50px;
+	background-color:#000;
+	color: white;
+}
+
+div#gallery_nav ul li{
+	float: left;
+	color; white;
+	width: 100px;
+	text-align:center;
+	border-right: solid 1px #fff;
+	height: 50px;
+}
+div#gallery_nav ul li a{
+	display:block;
+	width:100px;
+	height:50px;
+	
+}
+div#gallery_nav ul li a:hover{
+	display:block;
+	width:100px;
+	height:50px;
+	background-color:#ccc;
+}
+
+div#new_gallery_box{
+	margin-left: 70px;
+}
+
+div#new_gallery_box div.new_gallery_authorbox{
+	width: 820px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #09F;
+}
+div#new_gallery_box div.new_gallery_authorbox:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+p.authorName{
+	font-size: 1.00em;
+	font-weight:700;
+}
+div.authorImages{
+	float:right;
+	margin-right:30px;
+	margin-bottom:10px;
+}
+div.authorImages p.notimage{
+	padding-top:20px;
+	margin-bottom: 30px;
+}
+div#new_gallery_box span.authorImage{
+	margin-right:35px;
+}
+div#new_gallery_box div.new_thumbnail_Image{
+	float:left;
+	margin-right:40px;
+}
+div#new_gallery_box .new_thumbnail_Image a{
+	text-decoration:none;
+	color:#09F;
+}
+div#new_gallery_box .new_thumbnail_Image a:visited {
+	text-decoration:none;
+	color: #069;
+}
+div#new_gallery_box .new_thumbnail_Image a:hover{
+	color:#0F6;
+	-webkit-box-shadow: 5px 0px 30px -3px #000; /* Safari, Chrome用 */
+	-moz-box-shadow: 5px 5px 10px 5px #0F6; /* Firefox用 */
+	box-shadow: 5px 0px 30px -3px #000; /* CSS3 */
+}
+
+
+div#new_gallery_box span.rounded-img{
+	display: inline-block;
+	overflow: hidden;
+	border: solid 2px #06F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+div#new_gallery_box div.new_thumbnail_Imageimg{
+	opacity: 0;
+}
+div#new_gallery_box div.new_thumbnail_Image p{
+	text-align:center;
+	font-size:0.80em;
+	margin-bottom:10px;
+}
+
+/* 御題ランキング */
+div#odai_rank_gallery{
+	width:800px;
+	padding:20px 45px;
+	margin-left:30px;
+}
+div#odai_rank_gallery h2{
+	text-align:center;
+}
+ul#odai_rank{
+	width:750px;
+	margin-left:105px;
+	margin-top: 50px;
+}
+
+ul#odai_rank li{
+	float:left;
+	width:230px;
+	padding:0 10px;
+}
+ul#odai_rank li strong{
+	font-size:24px;
+	font-weight:800;
+}
+
+table.odaibox{
+	margin-left:0px;
+	margin-bottom: 20px;
+}
+.odaibox td{
+	width:270px;
+	height:250px;
+	border:solid 1px #000;
+	text-align:center;
+}
+.odaibox td a{
+	text-decoration: none;
+}

@@ -1,0 +1,103 @@
+/* CSS Document */
+
+/* コメント */
+#comments{
+	border: solid 1px #0c8bcd;
+	padding: 0 18px;
+	margin: 0 20px;
+}
+#comments h3{
+	font-size: 0.875em;
+	border-bottom: solid 1px #0c9bcd;
+	padding-bottom: 3px;
+	margin-top: 20px;
+}
+#comments p{
+	font-size: 0.75em;
+}
+#comments p a{
+	color: #0c8bcd;
+}
+#comments, textarea{
+	display: block;
+}
+#comments textarea{
+	width: 870px;
+}
+/*
+ * プラグイン
+ * Subscribe To Comments
+ * の購読文章の表示を見えなくする処理
+
+.subscribe-to-comments{
+	visibility: hidden;
+	display: none;
+}
+*/
+#comments .required{
+	color: #ff0000;
+}
+#comments code{
+	display: block;
+	margin-top: 5px;
+	font-size: smaller;
+}
+#comments ul{
+	margin: 0;
+	padding: 0;
+}
+#comments li.compost{
+	list-style-type: none;
+	border-bottom: dotted 1px #0c8bcd;
+}
+#comments ul.children{
+	margin-left:60px;
+	padding:10px;
+	padding-right:0;
+	/*border:solid 1px #0c8bcd;*/
+	background-color:#E0F1FF;
+}
+
+#comments div.commentarea{
+	width: 800px;
+	margin-top:10px;
+	margin-left:80px;
+}
+#comments div.commentarea:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+#comments div.commentarea p{
+	margin:0;
+	padding:0;
+}
+#comments p.cominfo{
+	text-align: right;
+}
+#comments #comfeed a{
+	background-image: url(../../web_template/css/feed-icon-12x12.png);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	padding-left: 17px;
+	line-height: 1em;
+	color: #000000;
+	text-decoration: none;
+}
+#comments #comfeed{
+	background-color: #A3D2F2;
+	padding: 8px;
+	margin-top: 30px;
+}
+#comments #trurl{
+	background-color: #A3D2F2;
+	padding: 8px;
+	margin-bottom: 30px;
+}
+
+#comments .icon_image{
+	float:left;
+	margin-right:20px;
+}

@@ -1,0 +1,47 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font: 14px/1.5 "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+	Osaka, "MS Pゴシック", "MS P Gothic", sans-serif;
+	*font-size: small; /*IE用*/
+	*font:x-small;/*IE 互換モード用*/
+	background: #fff;
+	letter-spacing: 0.05em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding:0;
+	display: block;
+}
+
+dl,dd,dt{
+	padding:0; margin:0;
+}
+
+ol,ul{
+	padding:0; margin:0;
+	list-style:none;
+}
+
+.clear{
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+
+.trick_thumbnail_Image{
+	opacity: 0;
+}
+.trick_rounded-img{
+	display: inline-block;
+	overflow: hidden;
+	border: solid 2px #06F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}

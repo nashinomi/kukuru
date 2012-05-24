@@ -1,0 +1,116 @@
+
+/*
+ * Theme Name: kukuruart
+ * Theme URI: http://nashinomi.com
+ * Author: Nashinomi
+ * Description: This is mycreate theme.
+ */
+
+@import url("css/common.css");
+@import url("css/header.css");
+@import url("css/nav.css");
+@import url("css/footer.css");
+
+/*
+@import url("css/top.css");
+@import url("css/post.css");
+@import url("css/sidebar.css");
+@import url("css/gallery.css");
+*/
+
+
+
+/* コンテナー */
+div#container{
+	clear: both;
+	width: 100%;
+	background-color: #fff;
+}
+
+/* 下段部分の背景 */
+div#main{
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	
+	font-size:1.00em;
+}
+/* float解除 */
+div#main:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/*
+p#pagetitle{
+	font-size: 0.875em;
+	font-weight: bold;
+	color: #000;
+	border: dotted 3px #7CE;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 0;
+}
+日付と時間(font) 
+h2.date-header {
+	text-align: center;
+	font: normal normal 18px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+	color: #000;
+}
+h2.date-header a{
+	text-decoration: none;
+	text-align: center;
+	font: normal normal 18px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+	color: #000;
+}
+*/
+
+
+
+/* フィード */
+p.feed{
+	font-size: 0.75em;
+	font-family: verdana, helvetica, sens-serif;
+	border: solid 1px #0c8bcd;
+	padding: 5px;
+	margin: 25px 0;
+}
+p.feed a{
+	color: #444444;
+	text-decoration: none;
+}
+p.feed img{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+/* 投稿からの回り込み */
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left
+}

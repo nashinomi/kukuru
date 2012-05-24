@@ -1,0 +1,220 @@
+@import url("comments.css");
+
+/* 記事 */
+div.post {
+	border-bottom: solid 2px #ccc;
+	padding: 0 10px;
+	margin: 10px 10px 10px 20px;
+}
+div.post ul{
+	list-style-type: circle;
+	margin-left:30px;
+}
+div.post li{
+	font-size:13px;
+}
+
+
+p.pagetitle{
+	font-size: 0.875em;
+	font-weight: bold;
+	color: #000;
+	border: dotted 3px #7CE;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 0;
+}
+div.postTitle{
+	height: 70px;
+	padding: 10px 0 0 10px;
+	margin: 0 10px 0 10px;
+	background-color: #fff;
+	-moz-box-shadow: -1px 2px 2px 1px #CCC;
+	-webkit-box-shadow: -1px 2px 2px 1px #CCC;
+}
+.post_authorimage{
+	float: left;
+}
+
+div.postTitle h2{
+	margin-left: 80px;
+	color: #000000;
+	font-size: 1.50em;
+	position:relative;
+	top: 30%;
+}
+div.postTitle h2 a{
+	text-decoration: none;
+	color:#66F;
+}
+div.postTitle h2 a:visited{
+	color:#309;
+}
+div.postTitle h2 a:hover{
+	color:#6F9;
+}
+
+div.post p{
+	font-size: 0.88em;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+
+
+p.postinfo{
+	font-size: 0.88em;
+	color: #0c8bcd;
+	text-align: right;
+	margin: 20px 0 0;
+	clear: both;
+}
+p.postinfo a{
+	color: #0c8bcd;
+}
+
+/* サムネイル表示 */
+img.wp-post-image{
+	float: left;
+	margin-right:20px;
+}
+
+/* 記事内の画像 */
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption{
+	border: solid 1px #AAAAAA;
+	text-align: center;
+	padding-top: 5px;
+}
+div.post img{
+	border: none;
+}
+
+
+
+/*  ページリンク */
+span.oldpage{
+	float: left;
+}
+span.newpage{
+	float: right;
+}
+p.pagelink a{
+	font-size: 0.75em;
+	color: #0c8bcd;
+}
+p.pagelink{
+	overflow: hidden;
+	width: 100%;
+}
+
+/* 画像ページのスタイル（一時的に） */
+div#mainimage{
+	text-align:center;
+	margin:20px 0;
+}
+div#mainimage img{
+	-moz-box-shadow: -1px 2px 2px 1px #CCC;
+	-webkit-box-shadow: 0px 0px 6px 5px #CCC;
+}
+div .ratings_pos{
+	float:right;
+	margin-bottom:10px;
+}
+div .ratings_pos:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+	
+}
+
+/* イラスト系のページ表示 */
+div.illust_box{
+	border: solid 1px #6FF;
+	margin-bottom:10px;
+	padding: 10px;
+}
+div.illust_box:after{
+	content:'.';
+	height:0px;
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
+div.illust_box div.illust_image{
+	width: 300px;
+	float:left;
+	text-align:center;
+}
+div.illust_box img{
+}
+div.illust_content{
+	width:550px;
+	margin-left:300px;
+	padding-left:30px;
+	border-left:dashed 1px #6FC;
+}
+div.illust_content h3.illust_name{
+	height: 20px;
+	padding: 10px 0;
+	border-bottom: solid 1px #0FC;
+	margin-bottom: 5px;
+}
+div.illust_content h3.illust_name a{
+	text-decoration: none;
+	color: #0c8bcd;
+}
+div.illust_content h3.illust_name a:visited {
+	color: #330099;
+}
+div.illust_content h3.illust_name a:hover{
+	color:#0F6;
+}
+div.illust_content img.odaiimg{
+	margin-top:-10px;
+	float:right;
+}
+div.illust_content p{
+}
+div.illust_content span.view_star{
+	text-align:right;
+}
+/* 未完成の場合のクラス */
+div.unfin_box{
+	border: solid 1px #008000;
+}
+img.odaiimg{
+	margin-right: 10px;
+	float:left;
+}
+/*テーブル*/
+table.illust_table{
+	border: solid 1px #6FF;
+	margin-bottom:10px;
+	padding: 10px;
+}
+table.illust_table tr.illust_box{
+	border: solid 1px #6FF;
+	margin-bottom:10px;
+	padding: 10px;
+}
+tr.illust_box td.illust_image{
+	width: 300px;
+	text-align:center;
+	border-bottom:solid 1px #6FF;
+}
+tr.illust_box td.illust_name{
+	height: 20px;
+	padding: 10px 0;
+	border-bottom: solid 1px #0FC;
+	margin-bottom: 5px;
+}
+tr.illust_box tr.illust_content{
+	border-bottom:solid 1px #6FF;
+}
+

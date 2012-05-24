@@ -1,0 +1,90 @@
+/* CSS Document */
+
+/*トップのイメージ*/
+div#topgallery{
+	height:360px;
+	background-image:url(../img/header_image.png);
+}
+div#topgallery img{
+	margin-top:52px;
+	margin-left:28px;
+}
+div.clear{
+	clear:both;
+}
+
+/* コンテンツ */
+div#Topcontent{
+	width: 620px;
+	margin-left:10px;
+	font-size:13px;
+	float: left;
+}
+
+/* 新着記事情報トップ */
+#TopFeed{
+	margin-top: 10px;
+}
+#TopFeed .newimg{
+	margin-bottom:5px;
+}
+#TopFeed h2.newposts{
+	font-size:1.25em;
+	font-weight:600;
+	letter-spacing: 0.5em;
+	padding-bottom:5px;
+	text-indent:15px;
+	margin-bottom: 5px;
+	border-bottom: solid 2px #ccc; 
+}
+#TopFeed .feed{
+	padding: 5px;
+	border-bottom: solid 1px #ccc;
+}
+#TopFeed .feed:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+#TopFeed div.yu-za{
+	float: left;
+	border: solid 1px #29628D;
+	margin-right: 10px;
+	/*角丸使う↓*/
+}
+#TopFeed div.feed_title{
+	float:left;
+	width:400px;
+	margin-top: 10px;
+}
+#TopFeed div.day_category{
+	float: right;
+	width:140px;
+	margin: 10px 0 0 0;
+	padding: 20px 0 0 0;
+}
+#TopFeed div.day_category:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+#TopFeed div.day_category span{
+	margin:0;
+	padding:0;
+}
+.day_category span.month{
+	display:block;
+	width: 140px;
+	text-align:right;
+	margin-top:5px;
+
+}
+.day_category span.category{
+	font-size:0.65em;
+	float: right;
+	color: #0c8bcd;
+}
