@@ -15,7 +15,7 @@ div#sitetitle{
 }
 
 div#header h1 {
-	font.size: 1.875em;
+	font-size: 1.875em;
 	font: normal normal 36px 'Courier New', Courier, FreeMono, monospace;
 	color: #000;
 }

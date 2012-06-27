@@ -19,8 +19,8 @@
 	</ul>
 	<?php endif; ?>
 	<?php comment_form(); ?>
-	<button onclick="temple()">テンプレート</button>
 </div>
+
 <?php
 /*
  * トラックバックの必要性が無いのでコメントアウト
@@ -41,6 +41,7 @@
 			<?php trackback_url(); ?>
 		</p>
 	<?php endif; ?>
- */ ?>
+ */ 
+ ?>
 
 

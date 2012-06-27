@@ -1,5 +1,4 @@
 // JavaScript Document
-<!--
 /*
 <!--
 <script type="text/javascript">
@@ -36,19 +35,10 @@
 </script>
 -->	
 */
-<!-- 
 // 競合を避ける処理？
 var j=jQuery.noConflict();
 
-function temple(){
-	var data = 
-	"技術点:\n立体感:\n構成力:\nインパクト:\nチャレンジ:\n合計値:\n";
-	var textarea = j("#comment");
-	textarea.text(data);
-}
-
-// tab
-
+// タブメニュー
 var tab = {
 	init: function(){
 		var tabs = this.setup.tabs;
@@ -82,5 +72,3 @@ var tab = {
 		}
 	}
 }
-
--->
