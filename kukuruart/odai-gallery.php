@@ -1,7 +1,6 @@
 <?php 
 /********************************
         御題別ギャラリーページ  
- * 未完成・投稿されてないと表示されないバグ有り
 ********************************/
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -45,7 +44,7 @@ foreach($odai_posts as $cap_post):
 				$ave_total_count[$odai_value['post_user']]++;
 				//$ave_total[$odai_value['post_user']]=($ave_total[$odai_value['post_user']]+$odai_value['star_ave'])/2;
 			}else{
-				//御題絵が存在していても評価されていなければカウントしない
+				//御題が存在していても評価されていなければカウントしない
 			}
 			
 			$block_key++;
